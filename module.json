@@ -1,9 +1,9 @@
 {
   "id": "worldweep-custom-content",
   "title": "Worldweep Custom Content",
-  "version": "1.0.1",
+  "version": "1.0.1.1",
   "manifest": "https://github.com/pocketlint60/worldweep-custom-content/releases/latest/download/module.json",
-  "download": "https://github.com/pocketlint60/worldweep-custom-content/releases/download/1.0.1/worldweep-custom-content.zip",
+  "download": "https://github.com/pocketlint60/worldweep-custom-content/releases/download/1.0.1.1/worldweep-custom-content.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -78,5 +78,6 @@
       }
     }
   ],
-  "description": ""
+  "description": "<p>This module contains the custom content for Worldweep, a Pathfinder 2nd Edition living world game.</p>",
+  "url": "https://github.com/pocketlint60/worldweep-custom-content"
 }
