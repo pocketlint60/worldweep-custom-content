@@ -1,0 +1,71 @@
+{
+  "id": "worldweep-custom-content",
+  "title": "Worldweep Custom Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Ethan Hoffman",
+      "url": "https://ko-fi.com/pocketlint60",
+      "discord": "pocketlint60",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "shardbound-feats",
+      "label": "Worldweep Shardbound Feats",
+      "path": "packs/shardbound-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "worldweep-character-options",
+      "label": "Worldweep Character Options",
+      "path": "packs/worldweep-character-options",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "worldweep-items",
+      "label": "Worldweep Items",
+      "path": "packs/worldweep-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "worldweep-spells",
+      "label": "Worldweep Spells",
+      "path": "packs/worldweep-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}

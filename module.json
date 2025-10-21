@@ -1,0 +1,72 @@
+{
+  "id": "worldweep-custom-content",
+  "title": "Worldweep Custom Content",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Ethan Hoffman",
+      "url": "https://ko-fi.com/pocketlint60",
+      "discord": "pocketlint60",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "worldweep-custom-content": {
+      "featTraits": {
+        "label": "Shardbound",
+        "description": "Bababooey."
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "worldweep-season2-feats",
+      "label": "Worldweep Season 2 Feats",
+      "path": "packs/worldweep-season2-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "worldweep-season2-options",
+      "label": "Worldweep Season 2 Character Options",
+      "path": "packs/worldweep-season2-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "worldweep-season2-items",
+      "label": "Worldweep Season 2 Items",
+      "path": "packs/worldweep-season2-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "worldweep-season2-spells",
+      "label": "Worldweep Season 2 Spells",
+      "path": "packs/worldweep-season2-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": ""
+}
