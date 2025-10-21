@@ -1,7 +1,7 @@
 {
   "id": "worldweep-custom-content",
   "title": "Worldweep Custom Content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -15,56 +15,65 @@
     }
   ],
   "flags": {
-    "canUpload": true
+    "worldweep-custom-content": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "shardbound": {
+            "label": "Shardbound",
+            "description": "A feat with this trait indicates an ability granted to the Shardbound, and can be placed in your Ancestry Paragon slots."
+          },
+          "worldweep": {
+            "label": "Worldweep",
+            "description": "This trait indicates content from Children of the Worldweep."
+          }
+        }
+      }
+    }
   },
   "packs": [
     {
-      "name": "shardbound-feats",
-      "label": "Worldweep Shardbound Feats",
-      "path": "packs/shardbound-feats",
+      "name": "worldweep-season2-feats",
+      "label": "Worldweep Season 2 Feats",
+      "path": "packs/worldweep-season2-feats",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
-      "name": "worldweep-character-options",
-      "label": "Worldweep Character Options",
-      "path": "packs/worldweep-character-options",
+      "name": "worldweep-season2-options",
+      "label": "Worldweep Season 2 Character Options",
+      "path": "packs/worldweep-season2-options",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
-      "name": "worldweep-items",
-      "label": "Worldweep Items",
-      "path": "packs/worldweep-items",
+      "name": "worldweep-season2-items",
+      "label": "Worldweep Season 2 Items",
+      "path": "packs/worldweep-season2-items",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
-      "name": "worldweep-spells",
-      "label": "Worldweep Spells",
-      "path": "packs/worldweep-spells",
+      "name": "worldweep-season2-spells",
+      "label": "Worldweep Season 2 Spells",
+      "path": "packs/worldweep-season2-spells",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     }
   ],
   "description": ""
