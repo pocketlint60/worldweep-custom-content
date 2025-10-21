@@ -1,7 +1,7 @@
 {
   "id": "worldweep-custom-content",
   "title": "Worldweep Custom Content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -16,9 +16,17 @@
   ],
   "flags": {
     "worldweep-custom-content": {
-      "featTraits": {
-        "label": "Shardbound",
-        "description": "Bababooey."
+      "pf2e-homebrew": {
+        "featTraits": {
+          "shardbound": {
+            "label": "Shardbound",
+            "description": "A feat with this trait indicates an ability granted to the Shardbound, and can be placed in your Ancestry Paragon slots."
+          },
+          "worldweep": {
+            "label": "Worldweep",
+            "description": "This trait indicates content from Children of the Worldweep."
+          }
+        }
       }
     }
   },
